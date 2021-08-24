@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +8,10 @@ namespace Ex04.Menus.Test
 {
      class Program
      {
-
-          public void Main()
+          public static void Main()
           {
-
+               Ex04.Menus.Interfaces.MainMenu mainMenu = new Ex04.Menus.Interfaces.MainMenu();
+               mainMenu.show();
           }
      }
 }
